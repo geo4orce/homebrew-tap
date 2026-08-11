@@ -1,4 +1,4 @@
-class VerifiedVersion < Formula
+class Vv < Formula
   desc "Print any tool's version as a strict SemVer triple"
   homepage "https://verified-version.org/"
   url "https://github.com/geo4orce/verified-version/archive/refs/tags/v2.1.0.tar.gz"
