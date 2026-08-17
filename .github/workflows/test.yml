@@ -11,6 +11,6 @@ jobs:
   formula:
     runs-on: macos-latest
     steps:
-      - uses: actions/checkout@v6
-      - run: brew install --formula ./Formula/vv.rb
-      - run: brew test vv
+      - run: brew tap geo4orce/tap
+      - run: brew install geo4orce/tap/vv
+      - run: brew test geo4orce/tap/vv
