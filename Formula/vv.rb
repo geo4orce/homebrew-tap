@@ -1,5 +1,5 @@
 class Vv < Formula
-  desc "Print any tool's version as a strict SemVer triple"
+  desc "Print an installed tool's version as a strict SemVer triple"
   homepage "https://verified-version.org/"
   url "https://github.com/geo4orce/verified-version/archive/refs/tags/v5.0.0.tar.gz"
   sha256 "ff77c436c0ea1ada626f4f8fb8beea219bf28ca0d23214bcb1159ba444955e2b"
