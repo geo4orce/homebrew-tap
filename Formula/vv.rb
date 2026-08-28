@@ -1,8 +1,8 @@
 class Vv < Formula
   desc "Print an installed tool's version as a strict SemVer triple"
   homepage "https://verified-version.org/"
-  url "https://github.com/geo4orce/verified-version/archive/refs/tags/v5.0.0.tar.gz"
-  sha256 "ff77c436c0ea1ada626f4f8fb8beea219bf28ca0d23214bcb1159ba444955e2b"
+  url "https://github.com/geo4orce/verified-version/archive/refs/tags/v5.0.1.tar.gz"
+  sha256 "19510bcc4baa890594b3c534d026c3d18a07ee8c3f3e56e78e88d6fca0f37379"
   license "MIT"
 
   def install
@@ -14,6 +14,6 @@ class Vv < Formula
   end
 
   test do
-    assert_equal "5.0.0", shell_output("#{bin}/vv --verified-version").strip
+    assert_equal "5.0.1", shell_output("#{bin}/vv --verified-version").strip
   end
 end
